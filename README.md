@@ -4,7 +4,7 @@
 
 **Website:** https://vestnil.netlify.app &nbsp;|&nbsp; [Español](https://vestnil.netlify.app/es) &nbsp;|&nbsp; [Português](https://vestnil.netlify.app/pt-br) &nbsp;|&nbsp; [Français](https://vestnil.netlify.app/fr) &nbsp;|&nbsp; [Deutsch](https://vestnil.netlify.app/de) &nbsp;|&nbsp; [Bahasa Indonesia](https://vestnil.netlify.app/id) &nbsp;|&nbsp; [हिन्दी](https://vestnil.netlify.app/hi)
 
-## Download the latest version (0.5.0)
+## Download the latest version (0.5.1)
 
 | For | Download |
 |---|---|
@@ -21,7 +21,8 @@ From 0.4.0 on, every public version stays available.
 
 | Version | Status | Installer | Portable | Notes |
 |---|---|---|---|---|
-| **0.5.0** | Latest, recommended | [VestnilSetup-0.5.0.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/VestnilSetup-0.5.0.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/Vestnil-0.5.0-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.0) |
+| **0.5.1** | Latest, recommended | [VestnilSetup-0.5.1.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/VestnilSetup-0.5.1.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/Vestnil-0.5.1-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.1) |
+| 0.5.0 | Has a problem with Store apps, please update | [VestnilSetup-0.5.0.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/VestnilSetup-0.5.0.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/Vestnil-0.5.0-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.0) |
 | 0.4.0 | Older preview | [VestnilSetup-0.4.0.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.4.0/VestnilSetup-0.4.0.exe) | - | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.4.0) |
 
 [See all releases](https://github.com/SMRUTIRANJAN30/vestnil/releases). To hear about new ones, choose **Watch > Custom > Releases** at the top of this page.
@@ -40,7 +41,19 @@ From 0.4.0 on, every public version stays available.
 
 ![Everything found, with reasons](images/leftovers.png)
 
-## How much better is 0.5.0 than 0.4.0?
+## 0.5.1 compared with 0.5.0
+
+| Test | 0.5.0 | 0.5.1 |
+|---|---|---|
+| 1,502 items of one made-up program deleted | 127 seconds | **5 seconds** |
+| Store app removal that fails or hangs | Could stay stuck and refuse to close | **Always ends with an answer** |
+| Longest time the window did not react | Not measured | **70 ms** |
+| Scan of MATLAB (a very large program) | 7 to 13 seconds | **2.6 seconds** |
+| Automatic tests passed | 69 | 84 |
+
+Measured on one PC.
+
+## 0.5.0 compared with 0.4.0
 
 | Test | 0.4.0 | 0.5.0 |
 |---|---|---|
