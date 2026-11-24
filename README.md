@@ -64,7 +64,7 @@ An Android app (APK) is planned and coming soon. **No Vestnil APK exists yet.** 
 
 ## Report a problem
 
-Your reports help us decide what to fix first. Email us what you did, what you expected and what happened, or use [the form on the website](https://vestnil.netlify.app/#report). Ideas and complaints are welcome too.
+Your reports help us decide what to fix first. Email us what you did, what you expected and what happened, or use [the form on the website](https://vestnil.netlify.app/report). Ideas and complaints are welcome too.
 
 ## Contact
 
