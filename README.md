@@ -1,6 +1,8 @@
-# Vestnil
+# Vestnil: free uninstaller for Windows 10 and 11
 
-**Uninstall with proof.** A free uninstaller for Windows 10 and 11, made in India with love from Odisha. It removes a program together with its folders, files and registry entries, checks again, and shows you what is left.
+**Uninstall with proof.** Vestnil removes a program completely: it runs the uninstaller, then deletes leftover files, folders, settings and registry entries, checks again and shows you what is left. Free, no ads, no account, with undo. Made in India with love from Odisha.
+
+**Website:** https://vestnil.netlify.app &nbsp;|&nbsp; [Español](https://vestnil.netlify.app/es) &nbsp;|&nbsp; [Português](https://vestnil.netlify.app/pt-br) &nbsp;|&nbsp; [Français](https://vestnil.netlify.app/fr) &nbsp;|&nbsp; [Deutsch](https://vestnil.netlify.app/de) &nbsp;|&nbsp; [Bahasa Indonesia](https://vestnil.netlify.app/id) &nbsp;|&nbsp; [हिन्दी](https://vestnil.netlify.app/hi)
 
 ## Download the latest version (0.5.0)
 
@@ -9,7 +11,7 @@
 | **Most people** | [**VestnilSetup.exe**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/VestnilSetup.exe) (installer, also updates older versions) |
 | **No installation** | [**Vestnil-portable.zip**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/Vestnil-portable.zip) (unpack the whole folder, then open Vestnil.exe) |
 
-Needs 64-bit Windows 10 or 11. Please read the [terms](TERMS.txt) first. **Website:** https://vestnil.netlify.app
+Needs 64-bit Windows 10 or 11, in any country. The app is in English. Please read the [terms](TERMS.txt) first.
 
 ![Vestnil dashboard](images/home.png)
 
@@ -50,6 +52,13 @@ From 0.4.0 on, every public version stays available.
 
 The made-up traces are in the places 0.5.0 was built to check, so your own results can differ.
 
+## Guides
+
+- [How to uninstall a program completely](https://vestnil.netlify.app/uninstall-programs-completely)
+- [How to remove leftover registry entries safely](https://vestnil.netlify.app/remove-leftover-registry-entries)
+- [A program will not uninstall: what to do](https://vestnil.netlify.app/program-will-not-uninstall)
+- [Questions and answers](https://vestnil.netlify.app/faq)
+
 ## Known limits
 
 The installer isn't digitally signed yet, so Windows may show a SmartScreen warning. Drivers and parts of Windows are never removed. A file that Windows itself keeps open goes after a restart, with Deep clean. Vestnil has been tested on few PCs, so keep a backup of important work. It can't undo what another program's uninstaller does.
@@ -68,6 +77,6 @@ Your reports help us decide what to fix first. Email us what you did, what you e
 
 ## Contact
 
-Smrutiranjan Sahoo, smrutiranjansahoopikun@gmail.com. Please report security problems by email, not in a public issue.
+Smrutiranjan Sahoo, smrutiranjansahoopikun@gmail.com. Please report security problems by email, not in a public issue. See [SECURITY.md](SECURITY.md).
 
 This repository hosts downloads only. Vestnil's source code is private. Copyright (c) 2026 Smrutiranjan Sahoo. All rights reserved.
