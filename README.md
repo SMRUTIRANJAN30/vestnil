@@ -85,7 +85,7 @@ Run `Get-FileHash .\VestnilSetup.exe` in PowerShell and compare it with `SHA256.
 
 **[Vestnil-0.1.0.apk](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.1.0/Vestnil-0.1.0.apk)** for Android 8 and newer, 52 KB. Removes several apps (Android asks you to confirm each one), checks that they are gone, and cleans folders they left in shared storage. It has no internet permission. [More about it](https://vestnil.netlify.app/phone)
 
-It is a preview: it passes 49 automatic app tests on the code of Android 8 to 15, and it has not been tested on many real phones yet. Download it only from here or from the website.
+It is a preview: it passes 49 automatic app tests on the code of Android 8 to 15, and it has not been tested on a real phone yet. Download it only from here or from the website.
 
 <img src="images/phone.png" width="260" alt="Vestnil for Android">
 
