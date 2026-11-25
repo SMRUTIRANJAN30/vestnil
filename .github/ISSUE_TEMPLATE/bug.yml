@@ -4,7 +4,7 @@ title: "[Bug] "
 labels: [bug]
 body:
   - type: input
-    attributes: { label: Vestnil version, placeholder: 0.5.2 }
+    attributes: { label: Vestnil version, placeholder: 0.6.0 }
     validations: { required: true }
   - type: input
     attributes: { label: Windows or Android version, placeholder: Windows 11, or Android 14 }
