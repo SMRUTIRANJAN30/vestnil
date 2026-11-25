@@ -4,10 +4,10 @@ title: "[Bug] "
 labels: [bug]
 body:
   - type: input
-    attributes: { label: Vestnil version, placeholder: 0.5.1 }
+    attributes: { label: Vestnil version, placeholder: 0.5.2 }
     validations: { required: true }
   - type: input
-    attributes: { label: Windows version, placeholder: Windows 11 }
+    attributes: { label: Windows or Android version, placeholder: Windows 11, or Android 14 }
   - type: textarea
     attributes: { label: What did you do, and what happened? }
     validations: { required: true }

@@ -4,13 +4,13 @@
 
 **Website:** https://vestnil.netlify.app &nbsp;|&nbsp; [Español](https://vestnil.netlify.app/es) &nbsp;|&nbsp; [Português](https://vestnil.netlify.app/pt-br) &nbsp;|&nbsp; [Français](https://vestnil.netlify.app/fr) &nbsp;|&nbsp; [Deutsch](https://vestnil.netlify.app/de) &nbsp;|&nbsp; [Bahasa Indonesia](https://vestnil.netlify.app/id) &nbsp;|&nbsp; [हिन्दी](https://vestnil.netlify.app/hi)
 
-## Download the latest version (0.5.1)
+## Download the latest version (0.5.2)
 
 | For | Download |
 |---|---|
 | **Most people** | [**VestnilSetup.exe**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/VestnilSetup.exe) (installer, also updates older versions) |
 | **No installation** | [**Vestnil-portable.zip**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/Vestnil-portable.zip) (unpack the whole folder, then open Vestnil.exe) |
-| **Android phone** (preview) | [**Vestnil-0.1.0.apk**](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.1.0/Vestnil-0.1.0.apk) ([about it](https://vestnil.netlify.app/phone)) |
+| **Android phone** (preview) | [**Vestnil-0.2.0.apk**](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.2.0/Vestnil-0.2.0.apk) ([about it](https://vestnil.netlify.app/phone)) |
 
 Needs 64-bit Windows 10 or 11, in any country. The app is in English. Please read the [terms](TERMS.txt) first.
 
@@ -22,7 +22,8 @@ From 0.4.0 on, every public version stays available.
 
 | Version | Status | Installer | Portable | Notes |
 |---|---|---|---|---|
-| **0.5.1** | Latest, recommended | [VestnilSetup-0.5.1.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/VestnilSetup-0.5.1.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/Vestnil-0.5.1-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.1) |
+| **0.5.2** | Latest, recommended | [VestnilSetup-0.5.2.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.2/VestnilSetup-0.5.2.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.2/Vestnil-0.5.2-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.2) |
+| 0.5.1 | Older | [VestnilSetup-0.5.1.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/VestnilSetup-0.5.1.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.1/Vestnil-0.5.1-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.1) |
 | 0.5.0 | Has a problem with Store apps, please update | [VestnilSetup-0.5.0.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/VestnilSetup-0.5.0.exe) | [ZIP](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.5.0/Vestnil-0.5.0-portable.zip) | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.5.0) |
 | 0.4.0 | Older preview | [VestnilSetup-0.4.0.exe](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/v0.4.0/VestnilSetup-0.4.0.exe) | - | [What changed](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/v0.4.0) |
 
@@ -83,9 +84,15 @@ Run `Get-FileHash .\VestnilSetup.exe` in PowerShell and compare it with `SHA256.
 
 ## Phone version (Android preview)
 
-**[Vestnil-0.1.0.apk](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.1.0/Vestnil-0.1.0.apk)** for Android 8 and newer, 52 KB. Removes several apps (Android asks you to confirm each one), checks that they are gone, and cleans folders they left in shared storage. It has no internet permission. [More about it](https://vestnil.netlify.app/phone)
+**[Vestnil-0.2.0.apk](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.2.0/Vestnil-0.2.0.apk)** for Android 8 and newer, 85 KB. [More about it](https://vestnil.netlify.app/phone)
 
-It is a preview: it passes 49 automatic app tests on the code of Android 8 to 15, and it has not been tested on a real phone yet. Download it only from here or from the website.
+- **Phone cleaner** with undo: temporary files, thumbnail caches, duplicates, large files, old downloads, folders of removed apps
+- **Security check** with the reason for every warning. It is not a virus scanner; it opens Google Play Protect for that
+- **Optimize:** memory, battery and unused apps, without a fake booster
+- **App remover:** one or several, checked with Android
+- **No internet permission**
+
+It is a preview: it passes 73 automatic app tests on the code of Android 8 to 15 and 100 safety checks. Download it only from here or from the website. Older: [0.1.0](https://github.com/SMRUTIRANJAN30/vestnil/releases/tag/android-v0.1.0).
 
 <img src="images/phone.png" width="260" alt="Vestnil for Android">
 
