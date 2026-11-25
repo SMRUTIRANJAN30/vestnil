@@ -10,6 +10,7 @@
 |---|---|
 | **Most people** | [**VestnilSetup.exe**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/VestnilSetup.exe) (installer, also updates older versions) |
 | **No installation** | [**Vestnil-portable.zip**](https://github.com/SMRUTIRANJAN30/vestnil/releases/latest/download/Vestnil-portable.zip) (unpack the whole folder, then open Vestnil.exe) |
+| **Android phone** (preview) | [**Vestnil-0.1.0.apk**](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.1.0/Vestnil-0.1.0.apk) ([about it](https://vestnil.netlify.app/phone)) |
 
 Needs 64-bit Windows 10 or 11, in any country. The app is in English. Please read the [terms](TERMS.txt) first.
 
@@ -80,9 +81,13 @@ The installer isn't digitally signed yet, so Windows may show a SmartScreen warn
 
 Run `Get-FileHash .\VestnilSetup.exe` in PowerShell and compare it with `SHA256.txt` in the release. If it's different, don't run the file. Don't turn off your antivirus to install Vestnil.
 
-## Phone version
+## Phone version (Android preview)
 
-An Android app (APK) is planned and coming soon. **No Vestnil APK exists yet.** If another site offers one, please don't install it.
+**[Vestnil-0.1.0.apk](https://github.com/SMRUTIRANJAN30/vestnil/releases/download/android-v0.1.0/Vestnil-0.1.0.apk)** for Android 8 and newer, 52 KB. Removes several apps (Android asks you to confirm each one), checks that they are gone, and cleans folders they left in shared storage. It has no internet permission. [More about it](https://vestnil.netlify.app/phone)
+
+It is a preview: it passes 49 automatic app tests on the code of Android 8 to 15, and it has not been tested on many real phones yet. Download it only from here or from the website.
+
+<img src="images/phone.png" width="260" alt="Vestnil for Android">
 
 ## Report a problem
 
